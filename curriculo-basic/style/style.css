@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #343a40;
+  --color-secundary: #dc3545;
+  --color--neutra: #fffdfd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color-primary);
+}
+/* MAIN */
+.main {
+  position: absolute;
+  right: 0;
+  width: 75%;
+  height: auto;
+}
+
+.main--section {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+}
+/* MAIN */
